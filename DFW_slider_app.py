@@ -6,7 +6,7 @@ import datetime
 
 
 # Load model
-model = joblib.load("/Users/trdny_josephjungermann/Documents/the_real_deal/20250515_DFW_ML_HousingPrices/DFW_house_price_model.pkl")
+model = joblib.load("DFW_house_price_model.pkl")
 
 all_counties = ["Collin", "Dallas", "Denton", "Ellis", "Hood", "Hunt",
                 "Johnson", "Kaufman", "Parker", "Rockwall", "Somervell",
